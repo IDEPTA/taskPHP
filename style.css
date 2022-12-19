@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.form{
+    margin: auto;
+    padding: 10px 0px ;
+    border-radius: 10px;
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form h1{
+    border-bottom: 1px solid #c4c4c4;
+}
+.input{
+    margin: 5px;
+    padding: 5px 10px;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    background-color: #c4c4c4;
+}
+.button{
+    background-color: aquamarine;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.picture{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+.img-card{
+    border: 2px solid #7e7e7e;
+    padding: 5;
+    text-align: center;
+    margin: 5px;
+}
+.img-card img{
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+/**/
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgblock{
+    background-color: #252525;
+    width: 50%;
+    border-radius: 10px;
+}
+.imgblock img{
+    width: 100%;
+    object-fit: cover;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.name{
+    margin-left: 20px;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+}
+.time{
+    color: #7e7e7e;
+    margin-left: 20px;
+    font-size: 15px;
+}
+.comments{
+    max-height: 200px;
+    overflow-y: auto;
+    background-color:#252525;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.comments p{
+    margin: 10px;
+    background-color: rgb(182, 182, 182);
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 18px;
+}
+.link-block a{
+    text-decoration: none;
+}
+.link-block a:first-child{
+    color: white;
+}
+.link-block a:last-child{
+    color: red;
+}
+.edit{
+    font-size: 12px;
+    color: #252525;
+}
+.commentsForm{
+    display: flex;
+    justify-content: center;
+    background-color:#252525;
+    width: 50%;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+textarea{
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(182, 182, 182);
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.history{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    height: 250px;
+    overflow-y: auto;
+    background-color: #252525;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 10px;
+}
+.history p{
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(182, 182, 182);
+}
